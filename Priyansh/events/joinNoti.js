@@ -72,7 +72,7 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
 ✮┼❄️┼✮
 
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
-`, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
+`, attachment: fs.createReadStream(__dirname + "https://i.imgur.com/f8Xr3Hw.jpeg")} ,threadID));
     }
     else {
         try {
@@ -93,7 +93,7 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
             }
             memLength.sort((a, b) => a - b);
             
-            (typeof threadData.customJoin == "undefined") ? msg = "Hello Mr/Miss {name},\n─────────────────\n You're The {soThanhVien}Member ─────────────────\nOf {threadName} Group\n─────────────────\nPlease Enjoy Your Stay\n─────────────────\nAnd Make Lots Of Friends =)\n──────-°°__𝗧𝗿𝘂𝘀𝘁 𝗺e 🔐 °__!!>☁️✨❤️ My Owner  ✦͙͙͙͙❥⃝∗⁎.ʚ Priyansh Rajput ɞ.⁎∗❥⃝**͙✦͙͙͙ ❤️ Love you 😘 ummmma ❤️😍" : msg = threadData.customJoin;
+            (typeof threadData.customJoin == "undefined") ? msg = "𝐇𝐞𝐥𝐥𝐨 𝐌𝐫/𝐌𝐢𝐬𝐬 {name},\n─────────────────\n 𝐘𝐨𝐮'𝐫𝐞 𝐓𝐡𝐞 {soThanhVien}𝐌𝐞𝐦𝐛𝐞𝐫 ─────────────────\n𝐎𝐟 {threadName} 𝐆𝐫𝐨𝐮𝐩\n─────────────────\n𝐏𝐥𝐞𝐚𝐬𝐞 𝐄𝐧𝐣𝐨𝐲 𝐘𝐨𝐮𝐫 𝐒𝐭𝐚𝐲\n─────────────────\n𝐀𝐧𝐝 𝐌𝐚𝐤𝐞 𝐋𝐨𝐭𝐬 𝐎𝐟 𝐅𝐫𝐢𝐞𝐧𝐝𝐬\n─────────────────\n𝐌𝐲 𝐎𝐰𝐧𝐞𝐫:- 𝐒𝐚𝐞𝐞𝐦 𝐒𝐡𝐞𝐢𝐤𝐡" : msg = threadData.customJoin;
             msg = msg
             .replace(/\{name}/g, nameArray.join(', '))
             .replace(/\{type}/g, (memLength.length > 1) ?  'Friends' : 'Friend')
@@ -114,4 +114,5 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
             return api.sendMessage(formPush, threadID);
         } catch (e) { return console.log(e) };
     }
-              }
+}
+            
