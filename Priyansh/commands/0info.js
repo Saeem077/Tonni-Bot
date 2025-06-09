@@ -40,15 +40,12 @@ var callback = () => api.sendMessage({body:` 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥�
 𝗕𝗢𝗧 𝗡𝗔𝗠𝗘:${global.config.BOTNAME}
 𝗔𝗗𝗠𝗜𝗡:𝙎𝘼𝙀𝙀𝙈 𝙎𝙃𝙀𝙄𝙆𝙃 (𝙀𝘿𝙄𝙏𝙊𝙍)
 𝗔𝗗𝗗𝗥𝗘𝗦𝗦:𝘿𝙃𝘼𝙆𝘼,𝙈𝙐𝙉𝙎𝙃𝙄𝙂𝘼𝙉𝙅
-=========𝗖𝗢𝗡𝗡𝗧𝗔𝗖𝗧=========
+=========𝗖𝗢𝗡𝗡𝗧𝗔𝗖𝗧==========
 ==============================
 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/editor.saeem077
 𝗠𝗔𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗟𝗜𝗡𝗞:https://m.me/editor.saeem077
-𝗘𝗢𝗥𝗠𝗔𝗧𝗧𝗢𝗡 ============================================
-𝗧𝗢𝗗𝗬 𝗜𝗦 𝗧𝗜𝗠𝗘 : ${juswa} 
-𝗕𝗢𝗧 𝗜𝗦 𝗥𝗨𝗡𝗡𝗜𝗡𝗚 ${hours}:${minutes}:${seconds}.
-𝗧𝗛𝗔𝗡𝗞𝗦 𝗙𝗢𝗥 𝗨𝗦𝗜𝗡𝗚 ${global.config.BOTNAME} \n======================
-✢━━━━━ T ━━━━━✢
-----❖----- 𝐓𝐚𝐫𝐞𝐤 -----❖---- `,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+==============================
+—͟͞͞★𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝘽𝙊𝙏亗
+==============================`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
