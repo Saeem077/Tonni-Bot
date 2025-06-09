@@ -24,15 +24,7 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/0nlgVg4.jpeg", 
-            
-            "https://i.imgur.com/ROArVyV.jpeg", 
-            
-            "https://i.imgur.com/xKHcXJs.jpeg",
-
-            "https://i.imgur.com/18qytoo.jpeg",
-            
-            "https://i.imgur.com/iUYl3m7.jpeg",];
+var link = ["https://i.imgur.com/8RnuTWw.jpeg",];
   
 var callback = () => api.sendMessage({body:` —͟͞͞★𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗧𝗢𝗡 𝙎𝘼𝙀𝙀𝙈亗
 ==============================
@@ -42,8 +34,8 @@ var callback = () => api.sendMessage({body:` —͟͞͞★𝗕𝗢𝗧 𝗜𝗡�
 𝗔𝗗𝗗𝗥𝗘𝗦𝗦:𝘿𝙃𝘼𝙆𝘼,𝙈𝙐𝙉𝙎𝙃𝙄𝙂𝘼𝙉𝙅
 =========𝗖𝗢𝗡𝗡𝗧𝗔𝗖𝗧==========
 ==============================
-𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/editor.saeem077
-𝗠𝗔𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗟𝗜𝗡𝗞:https://m.me/editor.saeem077
+𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞:https://www.facebook.com/editor.saeem077
+𝗠𝗔𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗟𝗜𝗡𝗞:https://m.me/editor.saeem077
 ==============================
 —͟͞͞★𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝘽𝙊𝙏
 ==============================`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
