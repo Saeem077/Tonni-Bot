@@ -34,7 +34,7 @@ var link = ["https://i.imgur.com/0nlgVg4.jpeg",
             
             "https://i.imgur.com/iUYl3m7.jpeg",];
   
-var callback = () => api.sendMessage({body:` 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗧𝗢𝗡 𝙎𝘼𝙀𝙀𝙈
+var callback = () => api.sendMessage({body:` —͟͞͞★𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗧𝗢𝗡 𝙎𝘼𝙀𝙀𝙈亗
 ==============================
 𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫: ${global.config.PREFIX}
 𝗕𝗢𝗧 𝗡𝗔𝗠𝗘:${global.config.BOTNAME}
@@ -45,7 +45,7 @@ var callback = () => api.sendMessage({body:` 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢𝗥�
 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞: https://www.facebook.com/editor.saeem077
 𝗠𝗔𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧 𝗟𝗜𝗡𝗞:https://m.me/editor.saeem077
 ==============================
-—͟͞͞★𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝘽𝙊𝙏亗
+—͟͞͞★𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝘽𝙊𝙏
 ==============================`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
