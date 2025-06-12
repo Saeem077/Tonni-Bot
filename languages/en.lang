@@ -1,7 +1,7 @@
 # If you want to move down the line, please use \n. e.g: Priyanshu\nPriyansh.
 # After changed, you have to restart the bot to use.
 # Put the # character at the beginning of each sentence if you don't want the code to run those lines. 
-# Thanks to https://www.facebook.com/duong.than.net for translate to English!
+# Thanks to https://www.facebook.com/editor.saeem077 for translate to English!
 
 # Priyansh.js 
 
@@ -61,12 +61,12 @@ users.needObject=Have to be an Object
 
 handleCommand.userBanned=⛔️~You Have Been Banned.!~🚫\n%1\n%2\nContact Bot Owner:-Saeem Sheikh 🖤 For Unban ⚠️
 handleCommand.threadBanned=⛔️Your Thread/Box/Group Has Been Banned!⛔️\n%1\n%2 Please Contact My Owner Saeem Sheikh For Unban ⚠️
-handleCommand.commandNotExist=Abe Yaar Pura Command To Likh Le 😹 %1.help Or.help2 🥰
+handleCommand.commandNotExist=Abe Yaar Pura Command To Likh Le 😹 .help Or .help2 🥰
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
 handleCommand.commandUserBanned=You are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough=📑এই Command আমার বস্ ছাইম শেখ ব্যাবহার🌹 📝করতে পারবে আপনার জন্য এই Command টি না💔 ✋❌ 
+handleCommand.permssionNotEnough=📑এই Command আমার বস্ ছাইম শেখ ব্যাবহার🌹 📝করতে পারবে আপনার জন্য এই Command টি না💔✋❌ 
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
