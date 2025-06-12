@@ -2,7 +2,7 @@
   name: "doya",
   version: "1.2.8",
   hasPermssion: 0,
-  credits: "𝙎𝘼𝙀𝙀𝙈 𝙎𝙃𝙀𝙄𝙆𝙃", 
+  credits: "Islamick cyber  Chat", 
   description: "Short doya",
   commandCategory: "doya",
   usages: "doya",
