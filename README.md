@@ -1,6 +1,6 @@
-# Priyansh Bot v2
+# Saeem Sheikh Bot v2
 
-Welcome to **Priyansh Bot v2**! This is a powerful and customizable bot built for automating various tasks on Facebook Messenger.
+Welcome to **Saeem Sheikh Bot v2**! This is a powerful and customizable bot built for automating various tasks on Facebook Messenger.
 
 ## Table of Contents
 
