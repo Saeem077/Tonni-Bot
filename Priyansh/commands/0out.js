@@ -1,8 +1,8 @@
 module.exports.config = {
     name: "out",
     version: "1.0.0",
-    hasPermssion: 2,
-    credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    hasPermssion: 1,
+    credits: "𝙎𝘼𝙀𝙀𝙈 𝙎𝙃𝙀𝙄𝙆𝙃",
     description: "",
     commandCategory: "Admin",
     usages: "out [id]",
