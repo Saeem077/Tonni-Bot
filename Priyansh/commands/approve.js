@@ -100,15 +100,24 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
     }
     else if (isNaN(parseInt(idBox))) api.sendMessage("[ ERR ] The ID you entered is not valid", threadID, messageID);
     else if (data.includes(idBox)) api.sendMessage(`[ - ] ID ${idBox} pre-approved!`, threadID, messageID);
-   	else api.sendMessage("✨ApKa Group Approved Kar Diya Hai🙌\n==============================\n\n𝗔𝗗𝗠𝗜𝗡 :𝙎𝘼𝙀𝙀𝙈 𝙎𝙃𝙀𝙄𝙆𝙃 (𝙀𝘿𝙄𝙏𝙊𝙍)\n=========𝗖𝗢𝗡𝗡𝗧𝗔𝗖𝗧==========\n==============================\n𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞: https://www.facebook.com/editor.saeem077\n==============================\n—͟͞͞★𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝘽𝙊𝙏\n==============================, idBox, (error, info) => {
+   	else api.sendMessage(" idBox, (error, info) => {
    		api.changeNickname(` 〖 ${global.config.PREFIX} 〗 ➺ ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, idBox, global.data.botID);
       const axios = require('axios');
 	const request = require('request');
 	const fs = require("fs");
    let admID = "61556537307728";    
   
-      api.getUserInfo(parseInt(admID), (err, data) => {
-      if(err){ return console.log(err)}
+      api.getUserInfo(parseInt(admID), (err, data) => {"𝗔𝗗𝗠𝗜𝗡 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗧𝗢𝗡 𝙎𝘼𝙀𝙀𝙈亗
+==============================
+𝗔𝗗𝗠𝗜𝗡 :𝙎𝘼𝙀𝙀𝙈 𝙎𝙃𝙀𝙄𝙆𝙃 (𝙀𝘿𝙄𝙏𝙊𝙍)
+𝗔𝗗𝗗𝗥𝗘𝗦𝗦:𝘿𝙃𝘼𝙆𝘼,𝙈𝙐𝙉𝙎𝙃𝙄𝙂𝘼𝙉𝙅
+=========𝗖𝗢𝗡𝗡𝗧𝗔𝗖𝗧==========
+==============================
+𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞 𝗟𝗜𝗡𝗞: https://www.facebook.com/editor.saeem077
+𝗠𝗔𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗟𝗜𝗡𝗞: https://m.me/editor.saeem077
+==============================
+—͟͞͞★𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝘽𝙊𝙏
+==============================, if(err){ return console.log(err)}
      var obj = Object.keys(data);
     var firstname = data[obj].name.replace("@", "");  
       
